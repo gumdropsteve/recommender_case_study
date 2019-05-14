@@ -7,6 +7,10 @@
 - `exploratory_data_analysis`
   - 4 Jupyter Notebooks covering EDA done
     - focus on `genre` and `movie` 
+- Results
+  - Model predicts marginally better than randomly guessing
+  - Average rating for suggested content is 3.59 (our model) vs. 3.54 (random)
+
 
 ### Intro 
 Today you are going to have a little friendly competition with your classmates.
