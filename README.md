@@ -13,8 +13,14 @@ The ratings data can be found in data/training.csv. The users' ratings have been
 - Assume “latent features” in our movies and users
   - Use Alternating Least Squares (ALS) to predict latent features.
     - Guess avg. rating per movie if confronted with new user.
-      - Thumbs Method - converted ratings to binary system of approval and disapproval based on ratings above and below 4. 
-      - Thumbs method takes user bias into account and it is intuitive.
+    - Thumbs Method - converted ratings to binary system of approval and disapproval based on ratings above and below 4. 
+    - Thumbs method takes user bias into account and it is intuitive.
+    - Pros
+      - Identifies Hidden Connections Organically
+      - Calculates all known user-movie combos
+    - Areas for Improvement
+      - Fits poorly on “sparse” data
+      - Does not solve the “cold start” problem
 
 
 Movie Recommender Case Study (Galvanize g88 - Spring 2019)
