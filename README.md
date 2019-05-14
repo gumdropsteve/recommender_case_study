@@ -1,6 +1,12 @@
 # Movie Recommender Case Study
 
-The Team's presentation slides can be found [here](https://docs.google.com/presentation/d/1qLeFmX4WpmIp0jjdLYf1quI9ddmVFXcTK2hRC8i4BQU/edit?usp=sharing)
+### Overview 
+- The Team's presentation slides can be found [here](https://docs.google.com/presentation/d/1qLeFmX4WpmIp0jjdLYf1quI9ddmVFXcTK2hRC8i4BQU/edit?usp=sharing)
+- `src`
+  - model `recommender.py` & code for sharing updates to Slack
+- `exploratory_data_analysis`
+  - 4 Jupyter Notebooks covering EDA done
+    - focus on `genre` and `movie` 
 
 ### Intro 
 Today you are going to have a little friendly competition with your classmates.
