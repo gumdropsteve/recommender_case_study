@@ -21,6 +21,15 @@ The ratings data can be found in data/training.csv. The users' ratings have been
   - Areas for Improvement
     - Fits poorly on “sparse” data
     - Does not solve the “cold start” problem
+  - Potential Future Work
+    - Adjust predicted ratings based on
+      - Average Movie Rating
+      - User Genre Profile (cosine similarity)
+      - Movie similarity to highly rated movies
+    - Compare models
+      - Adjust hyperparameters
+      - Try linear regression
+
 
 
 Movie Recommender Case Study (Galvanize g88 - Spring 2019)
